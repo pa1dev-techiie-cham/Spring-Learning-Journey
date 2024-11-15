@@ -1,0 +1,24 @@
+2024-Nov-04 20:41:42 pm [main] INFO  c.p.s.SpringLoggingApplication - Starting SpringLoggingApplication using Java 21.0.3 with PID 10044 (D:\springboot practices\Spring-logging\target\classes started by Devu pavan in D:\springboot practices\Spring-logging)
+2024-Nov-04 20:41:42 pm [main] INFO  c.p.s.SpringLoggingApplication - No active profile set, falling back to 1 default profile: "default"
+2024-Nov-04 20:41:42 pm [main] DEBUG com.pa1dev.springlabs.bean.Customer - my name init(),i am known to be as method of cutomer class and i am annotated with @postconstruct
+2024-Nov-04 20:41:42 pm [main] INFO  c.p.s.SpringLoggingApplication - Started SpringLoggingApplication in 0.917 seconds (process running for 1.528)
+2024-Nov-04 20:41:42 pm [main] INFO  c.p.s.SpringLoggingApplication - successfully retrived bean using class name Customer [plan=com.pa1dev.springlabs.bean.PrePaid@37191ef0]
+2024-Nov-04 20:41:42 pm [main] INFO  c.p.s.SpringLoggingApplication - successfully retrived bean using bean name Customer [plan=com.pa1dev.springlabs.bean.PrePaid@37191ef0]
+2024-Nov-04 20:41:42 pm [main] INFO  c.p.s.SpringLoggingApplication - successfully retrieving bean using default name PostPaid [getClass()=class com.pa1dev.springlabs.bean.PostPaid, hashCode()=253380088, toString()=com.pa1dev.springlabs.bean.PostPaid@f1a45f8]
+2024-Nov-04 20:41:42 pm [main] DEBUG com.pa1dev.springlabs.bean.PrePaid - customer bean's plan dependency using prepaid bean
+2024-Nov-04 20:41:42 pm [main] DEBUG com.pa1dev.springlabs.bean.Customer - customer is not registered!
+com.pa1dev.springlabs.exception.CustomException: customer is not registered!
+	at com.pa1dev.springlabs.bean.Customer.register(Customer.java:35)
+	at com.pa1dev.springlabs.SpringLoggingApplication.main(SpringLoggingApplication.java:27)
+2024-Nov-04 20:41:42 pm [main] INFO  c.p.s.SpringLoggingApplication - Sorry! Some exception occurred! Please check log file
+2024-Nov-04 20:41:42 pm [SpringApplicationShutdownHook] DEBUG com.pa1dev.springlabs.bean.Customer - my name destroy(),i am known to be as method of cutomer class and i am annotated with @predestroy
+2024-Nov-04 20:42:20 pm [main] INFO  c.p.s.SpringLoggingApplication - Starting SpringLoggingApplication using Java 21.0.3 with PID 11984 (D:\springboot practices\Spring-logging\target\classes started by Devu pavan in D:\springboot practices\Spring-logging)
+2024-Nov-04 20:42:20 pm [main] INFO  c.p.s.SpringLoggingApplication - No active profile set, falling back to 1 default profile: "default"
+2024-Nov-04 20:42:21 pm [main] DEBUG com.pa1dev.springlabs.bean.Customer - my name init(),i am known to be as method of cutomer class and i am annotated with @postconstruct
+2024-Nov-04 20:42:21 pm [main] INFO  c.p.s.SpringLoggingApplication - Started SpringLoggingApplication in 0.82 seconds (process running for 1.519)
+2024-Nov-04 20:42:21 pm [main] INFO  c.p.s.SpringLoggingApplication - successfully retrived bean using class name Customer [plan=com.pa1dev.springlabs.bean.PrePaid@7048535f]
+2024-Nov-04 20:42:21 pm [main] INFO  c.p.s.SpringLoggingApplication - successfully retrived bean using bean name Customer [plan=com.pa1dev.springlabs.bean.PrePaid@7048535f]
+2024-Nov-04 20:42:21 pm [main] INFO  c.p.s.SpringLoggingApplication - successfully retrieving bean using default name PostPaid [getClass()=class com.pa1dev.springlabs.bean.PostPaid, hashCode()=238654703, toString()=com.pa1dev.springlabs.bean.PostPaid@e3994ef]
+2024-Nov-04 20:42:21 pm [main] DEBUG com.pa1dev.springlabs.bean.PrePaid - customer bean's plan dependency using prepaid bean
+2024-Nov-04 20:42:21 pm [main] INFO  c.p.s.SpringLoggingApplication - custome enrolled to a PREPAID plan
+2024-Nov-04 20:42:21 pm [SpringApplicationShutdownHook] DEBUG com.pa1dev.springlabs.bean.Customer - my name destroy(),i am known to be as method of cutomer class and i am annotated with @predestroy
